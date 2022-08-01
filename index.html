@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Compiler</title>
+    <h1 align="center">Compile And Run Your Code
+    </h1>
+    <style>
+        #choose{
+            display: flex;
+            justify-content: space-between;
+        }
+        #language{
+            height: 30px;
+            margin: 20px 50px 0px 0px;
+        }
+        #code
+        {
+            width: 100%;
+            height: 60%;
+            background-color: black;
+            color: white;
+        }
+        #output
+        {
+            width: 100%;
+            height: 30%;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+   <div id="choose">
+        <h1>Choose Programming Language in which you want to code</h1>
+        <select name="language" id="language">
+            <option value="cpp">CPP</option>
+            <option value="js">JavaScript</option>
+            <option value="c">C</option>    
+            <option value="python">Python</option>
+            <option value="Java">Java</option>
+        </select>
+  </div>
+  <h3> Code Area:-
+        </h3>
+  <div id="body">
+      <textarea name="code" id="code" placeholder="Enter your code here"></textarea>
+      <button style="margin-top: 5px;" id="compile">Compile and Run</button>
+  </div>
+
+  <div>
+      <p>Output:</p>
+      <textarea name="output" id="output" >Output:-</textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

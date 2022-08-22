@@ -1,4 +1,4 @@
-var outputContainer=document.getElementById("output");
+vvar outputContainer=document.getElementById("output");
 
 function getCodefromUser()
 {
